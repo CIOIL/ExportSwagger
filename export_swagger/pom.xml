@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>gov.taxes</groupId>
-	<artifactId>export_swagger</artifactId>
+	<artifactId>api_automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>export_swagger</name>
-	<description>Export Swagger</description>
+	<name>api_automation</name>
+	<description>API Automation</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,7 +20,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.6.RELEASE</version>
+		<version>2.2.0.RELEASE</version>
 	</parent>
 
 	<dependencies>
@@ -45,7 +45,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.swagger</groupId>
+		    <artifactId>swagger-parser</artifactId>
+		    <version>1.0.31</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.asciidoctor</groupId>
 			<artifactId>asciidoctorj</artifactId>
@@ -54,9 +66,7 @@
 	</dependencies>
 
 	<repositories>
-		<repository>
-			
-		</repository>
+
 	</repositories>
 
 </project>
