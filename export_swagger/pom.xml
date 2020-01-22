@@ -55,9 +55,7 @@
 
 	<repositories>
 		<repository>
-			<id>shaam-nexus</id>
-			<name>shaam-nexus</name>
-			<url>http://sh-repo01.sh.shaam.gov.il/repository/maven-central/</url>
+			
 		</repository>
 	</repositories>
 
